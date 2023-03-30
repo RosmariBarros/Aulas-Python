@@ -1,0 +1,3 @@
+
+
+Faça um programa que leia todos os dados de uma pessoa(Nome, idade, sexo e profissao) depois imprima esse dados na tela com data atual.
