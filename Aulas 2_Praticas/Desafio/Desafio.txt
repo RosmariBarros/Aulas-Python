@@ -1,3 +1,19 @@
 
+# Faça um programa que leia todos os dados de uma pessoa (nome, idade, sexo e profissao) depois
+# imprima esses dados na tela com data atual.
 
-Faça um programa que leia todos os dados de uma pessoa(Nome, idade, sexo e profissao) depois imprima esse dados na tela com data atual.
+from datetime import datetime
+
+nome = str(input("Digite o seu nome: "))
+idade = int(input("Digite a sua idade: "))
+sexo = str(input("Digite o seu sexo: "))
+profissao = str(input("Digite a sua profissao: "))
+
+dt_atual = datetime.today()
+
+print(nome)
+print(idade)
+print(sexo)
+print (profissao)
+
+print ("DATA:", dt_atual.strftime("%d/%m/%Y"))

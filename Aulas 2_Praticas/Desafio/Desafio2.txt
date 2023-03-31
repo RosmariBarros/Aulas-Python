@@ -1,1 +1,19 @@
-Faca um jogo onde o usuario tenta acertar um numero aleatorio gerado pelo computador
+
+# Faca um jogo onde o usuario tenta acertar um numero aleatorio gerado pelo computador
+
+from random import randint
+from time import sleep
+
+computador = randint(0, 5) 
+print("Pensei em um número entre 0 e 5. Tente adivinha-lo...")
+
+usuario = int(input("Em que número eu pensei? "))
+print('PROCESSANDO...')
+sleep(1.5)
+
+if usuario == computador:
+    print('PARABÉNS! Você conseguiu adivinhar!')
+
+else:
+    print('GANHEI! Eu pensei no número {} e não no {}!'.format(computador, usuario))
+    

@@ -1,0 +1,4 @@
+print(nome)
+# print(idade)
+# print(sexo)
+# print (profissao)
